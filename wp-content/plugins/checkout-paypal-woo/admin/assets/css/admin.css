@@ -1,0 +1,118 @@
+/**
+ * Paypal plugin admin style
+ */
+
+.form_overlay {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.form-wc-wc_cppw_connect_btn fieldset {
+	margin: 20px 0 20px 0;
+}
+
+.form-wc-wc_cppw_connect_btn img {
+	margin: 5px 10px 0 10px;
+	width: 20px;
+	float: left;
+}
+
+.form-wc-wc_cppw_connect_btn .cppw_connect_btn,
+.form-wc-account_id .cppw_connect_btn {
+	background: #003088;
+	display: inline-block;
+	height: 38px;
+	text-decoration: none;
+	width: 240px;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+.form-wc-account_id .cppw_connect_btn {
+	margin: 10px;
+}
+
+.form-wc-wc_cppw_connect_btn .cppw_connect_btn:hover {
+	background: #0140b4;
+}
+
+.form-wc-wc_cppw_connect_btn .cppw_connect_btn span,
+.form-wc-account_id .cppw_connect_btn span {
+	color: #fff;
+	display: block;
+	font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 14px;
+	padding: 11px 0 0 65px;
+	position: relative;
+	text-align: left;
+}
+
+.form-wc-wc_cppw_connect_btn .cppw_connect_btn span::before,
+.form-wc-account_id .cppw_connect_btn span::before {
+	background-repeat: no-repeat;
+	content: "";
+	height: 20px;
+	left: 16%;
+	position: absolute;
+	top: 30%;
+	width: 49.58px;
+	background-image: url( "https://www.paypalobjects.com/digitalassets/c/website/logo/monogram/pp_rv_mg.svg" ); /* stylelint-disable-line function-url-quotes */
+	background-size: 17px;
+}
+.form-wc-wc_cppw_connect_btn .st_connect_mn_dv {
+	margin-top: 14px;
+}
+
+.form-wc-wc_cppw_test_button fieldset {
+	margin: 20px 0 20px 0;
+}
+
+.form-wc-wc_cppw_test_button a {
+	border: 1px solid rgb( 103, 114, 229 );
+}
+
+.form-wc-wc_cppw_test_button a,
+.form-wc-wc_cppw_test_button a > span {
+	padding: 5px;
+	color: rgb( 103, 114, 229 );
+	font-weight: 500;
+	background: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.stipe-connect-active {
+	color: #008000;
+	font-weight: 500;
+}
+.cppw_connect_mn_btn,
+.cppw_connect_hide_btn {
+	text-decoration: underline;
+	color: inherit;
+	font-size: 12px;
+}
+
+.account_status .cppw_connect_mn_btn,
+.account_status .cppw_connect_hide_btn {
+	color: #2271b1;
+	font-size: 14px;
+}
+
+#wpfooter {
+	display: block !important;
+}
+
+.form-wc-account_id .cppw_connect_hide_btn {
+	display: none;
+}

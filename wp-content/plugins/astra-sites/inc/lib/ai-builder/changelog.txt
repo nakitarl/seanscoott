@@ -1,0 +1,40 @@
+v1.0.23 - 13-May-2024
+- Fix: Fixed the PHP warning for function optional parameter.
+
+v1.0.22 - 10-May-2024
+- Improvement: Added filter for migration svg for onboarding plugin.
+
+v1.0.18 - 09-May-2024
+- Improvement: Added Light and Dark Color palettes.
+
+v1.0.17 - 09-May-2024
+- Improvement: Removed the width of the logo to make it compatible to Starter Templates Onboarding.
+
+v1.0.15 - 08-May-2024
+- Improvement: Set the source to 'starter-templates' on activation.
+
+v1.0.14 - 08-May-2024
+- Fix: The site import error when there are some required plugins.
+
+v1.0.13 - 07-May-2024
+- Fix: The site import process gets stuck.
+- Improvement: Updated the site building step slug.
+
+v1.0.10 - 06-May-2024
+- Fix: Fixed an incorrect type casting of a string on a popup for AI Builder.
+
+v1.0.9 - 06-May-2024
+- Improvement: Merged two steps into one.
+
+v1.0.7 - 02-May-2024
+- Fix: The upload logo is not working on the design preview screen.
+
+v1.0.5 - 02-May-2024
+- Improvement: Block sidebar Navigation.
+- UI Improvement: Font and Color palette selector UI of the Preview screen.
+
+v1.0.1 - 24-April-2024
+- Build files released
+
+v1.0.0 - 24-April-2024
+- Initial Release

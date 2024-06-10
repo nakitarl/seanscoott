@@ -1,0 +1,504 @@
+# Copyright (C) 2023 Checkout Plugins
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout Plugins - PayPal for WooCommerce 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/checkout-paypal-woo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-09T14:01:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: checkout-paypal-woo\n"
+
+#. Plugin Name of the plugin
+msgid "Checkout Plugins - PayPal for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.checkoutplugins.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "PayPal for WooCommerce delivers a simple, secure way to accept credit card payments in your WooCommerce store. Reduce payment friction and boost conversions using this free plugin!"
+msgstr ""
+
+#. Author of the plugin
+msgid "Checkout Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://checkoutplugins.com/"
+msgstr ""
+
+#: admin/admin-controller.php:77
+msgid "API Settings"
+msgstr ""
+
+#: admin/admin-controller.php:78
+msgid "PayPal Settings"
+msgstr ""
+
+#: admin/admin-controller.php:153
+msgid "Something went wrong! Please reload the page and try again."
+msgstr ""
+
+#: admin/admin-controller.php:154
+msgid "You must enter your API keys or connect the plugin before performing a connection test. Mode:"
+msgstr ""
+
+#: admin/admin-controller.php:155
+msgid "Your Paypal account has been disconnected."
+msgstr ""
+
+#: admin/admin-controller.php:183
+msgid "Connect with Paypal"
+msgstr ""
+
+#: admin/admin-controller.php:187
+msgid "There are some problem with PayPal auto connect."
+msgstr ""
+
+#: admin/admin-controller.php:189
+#: admin/admin-controller.php:543
+msgid "Manage API keys manually"
+msgstr ""
+
+#. translators: %1$1s, %2$2s: HTML Markup
+#: admin/admin-controller.php:207
+msgid "Have questions about connecting with Paypal? Read %1$s document. %2$s"
+msgstr ""
+
+#. translators: %1$1s %2$2s %3$3s: HTML Markup
+#: admin/admin-controller.php:245
+msgid "Your manually managed API keys are valid."
+msgstr ""
+
+#: admin/admin-controller.php:249
+msgid "It is highly recommended to Connect with Paypal for easier setup and improved security."
+msgstr ""
+
+#. translators: $1s Account name, $2s html markup, $3s account id, $4s html markup
+#: admin/admin-controller.php:255
+msgid "Account (%1$1s %2$2s %3$3s) is connected."
+msgstr ""
+
+#: admin/admin-controller.php:263
+msgid "Disconnect &amp; connect other account?"
+msgstr ""
+
+#: admin/admin-controller.php:264
+msgid "Test Connection"
+msgstr ""
+
+#: admin/admin-controller.php:309
+msgid "Paypal"
+msgstr ""
+
+#: admin/admin-controller.php:344
+msgid "Paypal API Settings"
+msgstr ""
+
+#: admin/admin-controller.php:349
+msgid "Mode"
+msgstr ""
+
+#: admin/admin-controller.php:352
+msgid "SandBox"
+msgstr ""
+
+#: admin/admin-controller.php:353
+msgid "Live"
+msgstr ""
+
+#: admin/admin-controller.php:355
+msgid "No live transactions are processed in sandbox mode. To fully use sandbox mode, you must have a sandbox account for the payment gateway you are testing."
+msgstr ""
+
+#: admin/admin-controller.php:360
+msgid "Paypal Connect"
+msgstr ""
+
+#: admin/admin-controller.php:370
+#: admin/admin-controller.php:401
+msgid "Connection Status"
+msgstr ""
+
+#: admin/admin-controller.php:374
+#: admin/admin-controller.php:375
+#: admin/admin-controller.php:405
+#: admin/admin-controller.php:406
+msgid "This is your Paypal Connect ID and serves as a unique identifier."
+msgstr ""
+
+#: admin/admin-controller.php:382
+#: admin/admin-controller.php:413
+msgid "Webhook URL"
+msgstr ""
+
+#. translators: %1$1s - %2$2s HTML markup
+#: admin/admin-controller.php:386
+msgid "Important: the webhook URL is called by Paypal when events occur in your account, like a source becomes chargeable. %1$1sWebhook Guide%2$2s or create webhook on %3$3spaypal dashboard%4$4s"
+msgstr ""
+
+#: admin/admin-controller.php:391
+msgid "Paypal Connect Live"
+msgstr ""
+
+#. translators: %1$1s - %2$2s HTML markup
+#: admin/admin-controller.php:417
+msgid "Important: the webhook URL is called by Paypal when events occur in your account, like a source becomes chargeable. %1$1s Webhook Guide %2$2s or create webhook on %3$3s paypal dashboard %4$4s"
+msgstr ""
+
+#: admin/admin-controller.php:422
+msgid "Debug Log"
+msgstr ""
+
+#: admin/admin-controller.php:424
+msgid "Log debug messages"
+msgstr ""
+
+#: admin/admin-controller.php:425
+msgid "Your publishable key is used to initialize Paypal assets."
+msgstr ""
+
+#: admin/admin-controller.php:547
+msgid "Hide API keys"
+msgstr ""
+
+#: admin/ajax-calls.php:58
+#: admin/ajax-calls.php:84
+#: admin/ajax-calls.php:110
+msgid "Error: Sorry, the nonce security check didn’t pass. Please reload the page and try again."
+msgstr ""
+
+#: admin/ajax-calls.php:62
+#: admin/ajax-calls.php:88
+#: admin/ajax-calls.php:114
+#: admin/ajax-calls.php:118
+msgid "Error: The current user doesn’t have sufficient permissions to perform this action. Please reload the page and try again."
+msgstr ""
+
+#: admin/ajax-calls.php:68
+msgid "Live mode is not connected ❌."
+msgstr ""
+
+#: admin/ajax-calls.php:68
+msgid "Sandbox mode is not connected ❌."
+msgstr ""
+
+#: admin/ajax-calls.php:72
+msgid "Live mode is connected ✔."
+msgstr ""
+
+#: admin/ajax-calls.php:72
+msgid "Sandbox mode is connected ✔."
+msgstr ""
+
+#: admin/ajax-calls.php:99
+msgid "Paypal keys are reset successfully."
+msgstr ""
+
+#: admin/ajax-calls.php:129
+msgid "Error: User not valid."
+msgstr ""
+
+#: admin/ajax-calls.php:135
+msgid "Paypal successfully connected."
+msgstr ""
+
+#: admin/ajax-calls.php:138
+msgid "Paypal not connected."
+msgstr ""
+
+#: admin/ajax-calls.php:177
+msgid "Paypal onboarding error :"
+msgstr ""
+
+#: admin/notices.php:127
+msgid "No SSL was detected, Paypal live mode requires SSL."
+msgstr ""
+
+#: admin/notices.php:137
+msgid "Your Paypal account has been connected to your WooCommerce store. You may now accept payments in live and test mode."
+msgstr ""
+
+#: admin/notices.php:147
+msgid "We were not able to connect your Paypal account. Please try again. "
+msgstr ""
+
+#: admin/notices.php:157
+msgid "Your Account has been limited by PayPal. Please verify your email address."
+msgstr ""
+
+#: admin/notices.php:167
+msgid "Your Account has been limited by PayPal. Please check your PayPal account inbox for an email from PayPal to determine the next steps for this."
+msgstr ""
+
+#: admin/order-meta.php:54
+msgid "PayPal Fee"
+msgstr ""
+
+#: admin/order-meta.php:59
+msgid "Net payout"
+msgstr ""
+
+#: autoloader.php:135
+msgid "Settings"
+msgstr ""
+
+#: autoloader.php:136
+msgid "Documentation"
+msgstr ""
+
+#. translators: 1$-2$: opening and closing <strong> tags, 3$-4$: link tags, takes to woocommerce plugin on wp.org, 5$-6$: opening and closing link tags, leads to plugins.php in admin.
+#: autoloader.php:183
+msgid "%1$sCheckout Plugins - PayPal for WooCommerce is inactive.%2$s The %3$sWooCommerce plugin%4$s must be active for Checkout Plugins - PayPal for WooCommerce to work. Please %5$s install & activate WooCommerce &raquo;%6$s"
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:67
+msgid "Order "
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:156
+msgid "Transaction id did not found."
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:176
+msgid "Refund process successfully"
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:183
+#: gateway/abstract-payment-gateway.php:185
+#: gateway/abstract-payment-gateway.php:190
+#: gateway/paypal/webhook/listener.php:251
+#: gateway/paypal/webhook/listener.php:274
+#: gateway/paypal/webhook/listener.php:326
+msgid "Reason : "
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:183
+#: gateway/abstract-payment-gateway.php:185
+#: gateway/abstract-payment-gateway.php:190
+#: gateway/paypal/webhook/listener.php:326
+#: gateway/paypal/webhook/listener.php:327
+msgid "Amount : "
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:183
+#: gateway/abstract-payment-gateway.php:185
+msgid "Status : Refunded"
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:183
+#: gateway/abstract-payment-gateway.php:185
+#: gateway/paypal/webhook/listener.php:326
+msgid "Transaction ID : "
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:185
+msgid "Refund initiated: "
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:189
+msgid "Unable to process refund request."
+msgstr ""
+
+#: gateway/abstract-payment-gateway.php:190
+msgid " Status : Failed "
+msgstr ""
+
+#. translators: error message
+#: gateway/paypal/api/client.php:68
+msgid "Error getting authorization code : %1$1s"
+msgstr ""
+
+#. translators: error message
+#: gateway/paypal/api/client.php:113
+msgid "Error : %s"
+msgstr ""
+
+#: gateway/paypal/api/client.php:122
+msgid "Invalid request"
+msgstr ""
+
+#: gateway/paypal/front-route.php:105
+msgid "Woocommerce checkout order"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:63
+msgid "PayPal Card Processing"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:64
+msgid "Accepts payments via Credit/Debit Cards"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:112
+msgid "Enable PayPal Gateway"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:116
+msgid "Title"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:118
+msgid "Title of Card Element"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:119
+msgid "PayPal"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:123
+msgid "Description"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:126
+msgid "Description on Card Elements for Live mode"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:127
+msgid "Pay with your credit card via PayPal"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:131
+msgid "Payment Type"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:135
+msgid "Capture"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:136
+msgid "Authorized"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:139
+msgid "Capture or authorized payment in capture intent payment will occur instantly and in authorized payment will be by paypal account captured."
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:143
+msgid "Payment Method"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:147
+msgid "Standard Payment"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:148
+msgid "Smart Payment"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:150
+msgid "This method will not work when checkout contain subscription product."
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:154
+msgid "Order Button Label"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:156
+msgid "Customize label for Order button"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:157
+msgid "Pay via PayPal"
+msgstr ""
+
+#. translators: order id and get total msg
+#: gateway/paypal/paypal-payments.php:197
+msgid "Begin processing payment with new payment method for order %1$1s for the amount of %2$2s"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:241
+#: gateway/paypal/paypal-payments.php:325
+msgid "There was a problem make the payment. Try another way."
+msgstr ""
+
+#. translators: error msg
+#: gateway/paypal/paypal-payments.php:244
+msgid "Make Payment Error: %1$1s"
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:256
+#: gateway/paypal/paypal-payments.php:434
+#: gateway/paypal/paypal-payments.php:483
+msgid "Payment failed."
+msgstr ""
+
+#: gateway/paypal/paypal-payments.php:295
+msgid "Click the PayPal button below to process your order."
+msgstr ""
+
+#. translators: %1$1s - %6$6s: HTML Markup
+#: gateway/paypal/paypal-payments.php:301
+msgid "%1$1s Test Mode Enabled:%2$2s Use demo card for payment."
+msgstr ""
+
+#: gateway/paypal/subscription/subscriptions.php:47
+#: gateway/paypal/subscription/subscriptions.php:102
+msgid "Order not found."
+msgstr ""
+
+#: gateway/paypal/subscription/subscriptions.php:61
+#: gateway/paypal/subscription/subscriptions.php:113
+msgid "Unable to create Paypal billing agreement."
+msgstr ""
+
+#: gateway/paypal/subscription/subscriptions.php:72
+msgid "Unable to create Paypal order."
+msgstr ""
+
+#: gateway/paypal/subscription/subscriptions.php:207
+msgid "Paypal order not created order id : "
+msgstr ""
+
+#: gateway/paypal/webhook/listener.php:102
+msgid "Webhook signature not valid."
+msgstr ""
+
+#. translators: %1$s captured amount, %2$s refunded %2$s $amount, %3$s currency
+#: gateway/paypal/webhook/listener.php:238
+msgid "Amount captured %3$s %1$s from Paypal dashboard Amount refunded %3$s %2$s."
+msgstr ""
+
+#. translators: %1$s Transaction id.
+#: gateway/paypal/webhook/listener.php:269
+msgid "Payment has been cancelled from Paypal dashboard. <br> Transaction Id : %1$s"
+msgstr ""
+
+#: gateway/paypal/webhook/listener.php:310
+msgid "Refunded via Paypal dashboard"
+msgstr ""
+
+#: gateway/paypal/webhook/listener.php:324
+msgid "Success"
+msgstr ""
+
+#: gateway/paypal/webhook/listener.php:326
+msgid "Status : "
+msgstr ""
+
+#: gateway/paypal/webhook/listener.php:327
+msgid " Transaction ID : "
+msgstr ""
+
+#: gateway/paypal/webhook/listener.php:352
+msgid "Could not find transaction ID."
+msgstr ""
+
+#: gateway/paypal/webhook/listener.php:358
+msgid "Could not find order via transaction ID : "
+msgstr ""
+
+#: gateway/paypal/webhook/webhook.php:60
+msgid "Error creating webhook id."
+msgstr ""
+
+#: inc/helper.php:163
+msgid "Invalid Nonce"
+msgstr ""
